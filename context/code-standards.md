@@ -25,7 +25,7 @@
 
 - Use CSS custom property tokens defined in globals.css - No raw Tailwind color classes like zink-* or hardcoded hex values.
 - Reference tokens through their Tailwin utility names: bg-base, text-copy-primary, border-surface-border, text-brand, etc.
-- Maintain the border radius scale: rounded-xl for small elements, rounded-2x1 for cards, rouded 3x1 for modals. 
+- Maintain the border radius scale: rounded-xl for small elements, rounded-2xl for cards, rounded-3xl for modals. 
 
 ## API Routes
 

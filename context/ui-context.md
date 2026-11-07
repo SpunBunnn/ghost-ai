@@ -32,7 +32,7 @@ All colors are defined as CSS custom properties in globals.css and mapped to Tai
 | Success          | `--state-success`       | `#34d399` |
 | Warning          | `--state-warning`       | `#fbbf24` |
 
-Tailwind utility names map to these variables. Use `bg-base`, `bg-surface`, `text-copy-primary`, `text-copy-muted`, `border-surface-border`, `text-brand`, `bg-accent-dim`, etc.
+These variables are mapped onto shadcn's semantic tokens in `globals.css`, which is what Tailwind actually generates utilities from. Use the mapped utility names: `bg-background` (page background), `bg-card` (surface), `bg-popover` (elevated surface), `bg-muted` / `bg-secondary` (subtle surface), `border-border` (default border), `border-input` (subtle border), `text-foreground` (primary text), `text-muted-foreground` (muted text), `bg-primary` / `text-accent-foreground` (brand accent), `bg-accent` (brand dim), `bg-destructive` / `text-destructive` (error). `--text-secondary`, `--text-faint`, `--accent-ai`, `--accent-ai-text`, `--state-success`, and `--state-warning` are not mapped to a semantic Tailwind utility yet — reference them with arbitrary-value syntax (e.g. `text-[var(--text-secondary)]`) until a mapping is added.
 
 ## Typography
 
