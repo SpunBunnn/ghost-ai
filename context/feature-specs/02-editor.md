@@ -41,3 +41,9 @@ Support:
 - footer actions
 
 Do not build actual dialogs yet.
+
+### Check when done
+
+- new components compile without TypeScript errors
+- no lint errors
+- dialog pattern is ready for future use 
